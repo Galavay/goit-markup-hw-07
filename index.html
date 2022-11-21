@@ -15,19 +15,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
 
   <body>
     <!-- шапка сайту -->
-    <header class="page-header">
-      <div class="container">
+    <header class="header">
+      <div class="header__container container">
         <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span
-          ><span class="logo-studio-primary">Studio</span></a
+          <span class="logo__main-part">Web</span
+          ><span class="logo__second-part--dark">Studio</span></a
         >
-        <nav class="main-nav">
-          <ul class="site-nav list">
+        <nav class="nav header__nav">
+          <ul class="nav__list list">
             <li class="item">
               <a href="./index.html" class="link current">Студія</a>
             </li>
@@ -40,17 +41,17 @@
           </ul>
         </nav>
 
-        <ul class="nav-header list">
+        <ul class="contacts list">
           <li class="item">
-            <a class="nav-header-mail" href="mailto:info@devstudio.com"
-              ><svg class="nav-header-svg" width="16px" height="12px">
+            <a class="contacts__email" href="mailto:info@devstudio.com"
+              ><svg class="contacts__icon icon__contacts" width="16px" height="12px">
                 <use
                   href="./images/symbol-defs (1).svg#icon-envelope-hover"
                 ></use></svg>info@devstudio.com</a>
           </li>
           <li class="item">
-            <a class="nav-header-tel" href="tel:+380961111111">
-              <svg class="nav-header-svg" width="10px" height="16px">
+            <a class="contacts__tel" href="tel:+380961111111">
+              <svg class="contacts__icon icon__contacts" width="10px" height="16px">
                 <use href="./images/symbol-defs (1).svg#icon-Vector"></use></svg>+38 096 111 11 11</a>
           </li>
         </ul>
@@ -68,9 +69,9 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title visually-hidden">ПЕРЕВАГИ</h2>
-          <ul class="feature-list list">
+          <ul class="feature list">
             <li class="item">
-              <div class="features-icons">
+              <div class="feature__icons">
                 <a href="antenna.">
                   <svg width="70" height="70">
                     <use href="./images/symbol-defs (1).svg#icon-antenna"></use>
@@ -85,7 +86,7 @@
               </p>
             </li>
             <li class="item">
-              <div class="features-icons">
+              <div class="feature__icons">
                 <a href="clock.">
                   <svg width="70" height="70">
                     <use href="./images/symbol-defs (1).svg#icon-clock"></use>
@@ -100,7 +101,7 @@
               </p>
             </li>
             <li class="item">
-              <div class="features-icons">
+              <div class="feature__icons">
                 <a href="diagram.">
                   <svg width="70" height="70">
                     <use href="./images/symbol-defs (1).svg#icon-diagram"></use>
@@ -114,7 +115,7 @@
               </p>
             </li>
             <li class="item">
-              <div class="features-icons">
+              <div class="feature__icons">
                 <a href="astronaut.">
                   <svg width="70" height="70">
                     <use
@@ -523,10 +524,10 @@
     <footer class="footer">
       <div class="container footer-main">
         
-          <div class="footer-address">
+          <div class="footer__contacts">
             <a class="logo" href="./index.html">
-              <span class="logo-web">Web</span
-              ><span class="logo-studio-secondary">Studio</span>
+              <span class="logo__main-part">Web</span
+              ><span class="logo__second-part--light">Studio</span>
             </a>
             <address class="address-footer">
               <ul class="footer-list list">

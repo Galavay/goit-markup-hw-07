@@ -18,14 +18,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="container">
+    <header class="header">
+      <div class="header__container container">
         <a class="logo" href="./index.html">
-          <span class="logo-web">Web</span
-          ><span class="logo-studio-primary">Studio</span></a
+          <span class="logo__main-part">Web</span
+          ><span class="logo__second-part--dark">Studio</span></a
         >
-        <nav class="main-nav">
-          <ul class="site-nav list">
+        <nav class="nav header__nav">
+          <ul class="nav__list list">
             <li class="item">
               <a href="./index.html" class="link">Студія</a>
             </li>
@@ -38,18 +38,18 @@
           </ul>
         </nav>
 
-        <ul class="nav-header list">
+        <ul class="contacts list">
           <li class="item">
-            <a class="nav-header-mail" href="mailto:info@devstudio.com"
-              ><svg class="nav-header-svg" width="16px" height="12px">
+            <a class="contacts__email" href="mailto:info@devstudio.com"
+              ><svg class="contacts__icon icon__contacts" width="16px" height="12px">
                 <use
                   href="./images/symbol-defs (1).svg#icon-envelope-hover"
                 ></use></svg>info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a class="nav-header-tel" href="tel:+380961111111">
-              <svg class="nav-header-svg" width="10px" height="16px">
+            <a class="contacts__tel" href="tel:+380961111111">
+              <svg class="contacts__icon icon__contacts" width="10px" height="16px">
                 <use href="./images/symbol-defs (1).svg#icon-Vector"></use></svg>+38 096 111 11 11</a
             >
           </li>
@@ -304,10 +304,10 @@
     </main>
     <footer class="footer">
       <div class="container footer-main">
-        <div class="footer-address">
+        <div class="footer__contacts">
           <a class="logo" href="./index.html">
-            <span class="logo-web">Web</span
-            ><span class="logo-studio-secondary">Studio</span>
+            <span class="logo__main-part">Web</span
+            ><span class="logo__second-part--light">Studio</span>
           </a>
           <address class="address-footer">
             <ul class="footer-list list">
@@ -391,9 +391,9 @@
           </ul>
         </div>
 
-          <form class="form-footer">
+          <div class="form-footer">
             <p class="form-email-title">Підпишіться на розсилку</p>
-            <div class="footer-email">
+            <form class="footer-email">
               <label class="footer-label" for="mail"></label>
               <input class="form-email-input" type="email" name="" id="mail" placeholder="E-mail">
               <button class="form-submit" type="submit">Підписатися
@@ -401,8 +401,8 @@
                   <use href="./images/symbol-defs (1).svg#icon-send-form-icon"></use>
                 </svg>
               </button>
-            </div>
-          </form>
+            </form>
+          </div>
       </div>
     </footer>
   </body>
